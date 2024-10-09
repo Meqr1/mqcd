@@ -23,6 +23,8 @@ function cd ($path) {
             return  # Exit the function if 'sl' fails
         }
 
+        $path = Get-Location
+
         ~/mqcd.exe set $path
     } else {
         sl
