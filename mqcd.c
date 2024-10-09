@@ -42,8 +42,6 @@ int writeHistory(char *directory) {
 
     fclose(file);
 
-    printf("Data written to %s successfully.\n", filePath);
-
     return 0;
 }
 
