@@ -41,3 +41,7 @@ function cd ($path) {
 this code snippet will remove the alias cd and add a custom cd function
 
 - if you dont have a custom powershell config read this https://lazyadmin.nl/powershell/powershell-profile/
+
+# !IMPORTANT
+
+put the mqcd.exe on the ~/mqcd.exe path
